@@ -1,0 +1,16 @@
+int main()
+{
+   int n1,n2,aux;
+   printf("digite um número: ");
+   scanf("%i",&n1);
+   printf("digite um número: ");
+   scanf("%i",&n2);
+   aux = n1;
+   n1 =n2;
+   n2 = aux;
+   printf("%i ",n1);
+   printf("%i ",n2);
+   
+
+    return 0;
+}
