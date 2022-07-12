@@ -1,0 +1,12 @@
+int main()
+{
+   int n1,n2,resto;
+   printf("digite um número: ");
+   scanf("%i",&n1);
+   printf("digite um número: ");
+   scanf("%i",&n2);
+   resto = n1 % n2;
+   printf("%i ",resto);
+
+    return 0;
+}
